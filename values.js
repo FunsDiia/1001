@@ -1,7 +1,7 @@
 // values.js
 
 // Основные данные 
-var fio               = "Чумаченко Максим Константинович";
+var fio               = "Чумаченко Максим Констянтинович";
 var fio_en            = "Chumachenko Maksym Konstantinovich";
 var birth             = "20.06.2007"; //дата рождения
 var date_give         = "29.07.2025"; //Дата видачи
