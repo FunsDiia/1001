@@ -556,7 +556,7 @@
     }
 
     .front {
-        position: fixed;
+        position: absolute;
         background-color: rgba(255, 255, 255, 0.4);
     }
 
@@ -975,6 +975,59 @@
                 </div>
             </div>
             <div class="close_block" data-index="prava">
+                Закрити
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="document_block_div zbroya_block_div">
+        <div>
+            <div class="main_block">
+                <div class="border">
+                    <img src="assets/document.png" alt="" />
+                    <span>Повна інформація</span>
+                </div>
+                <div class="border">
+                    <img src="assets/star.png" alt="" />
+                    <span>Оцінити документ</span>
+                </div>
+                <div class="border">
+                    <div class="document_block_div zbroya_block_div">
+                        <div>
+                            <div class="main_block">
+                                <div class="border">
+                                    <img src="assets/document.png" alt="" />
+                                    <span>Повна інформація</span>
+                                </div>
+                                <div class="border">
+                                    <img src="assets/star.png" alt="" />
+                                    <span>Оцінити документ</span>
+                                </div>
+                                <div class="border">
+                                    <img src="assets/exchange.png" alt="" />
+                                    <span>Змінити порядок документів</span>
+                                </div>
+                                <div>
+                                    <img src="assets/question.png" alt="" />
+                                    <span>Питання та відповіді</span>
+                                </div>
+                            </div>
+                            <div class="close_block" data-index="zbroya">
+                                Закрити
+                            </div>
+                        </div>
+                    </div>
+                    <img src="assets/exchange.png" alt="" />
+                    <span>Змінити порядок документів</span>
+                </div>
+                <div>
+                    <img src="assets/question.png" alt="" />
+                    <span>Питання та відповіді</span>
+                </div>
+            </div>
+            <div class="close_block" data-index="zbroya">
                 Закрити
             </div>
         </div>
@@ -1620,6 +1673,151 @@
                                                                 )
                                                                 invert(1);
                                                         "
+                                             alt="" />
+                                    </div>
+                                    <span>QR-код</span>
+                                </div>
+                                <div data-index="2">
+                                    <div>
+                                        <img src="assets/free-icon-barcode-7797192.png"
+                                             alt="" />
+                                    </div>
+                                    <span>Штрихкод</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </style>
+            <div id="study-modal" class="modal">
+                <div class="study-modal-content modal-content">
+                    <div class="handle"></div>
+                    <h1>Дозвіл на зберігання і носіння зброї фізичною особою</h1>
+
+                    <div class="numberNN" style="gap: 10px">
+                        <h3 id="nomerStudy"></h3>
+                        <img class="copyPng"
+                             src="assets/copy.png"
+                             alt="" />
+                    </div>
+
+                    <!-- Вставьте сюда ваше содержимое -->
+                    <div class="line1 marquee"
+                         style="
+                    background: linear-gradient(
+                        90deg,
+                        #b6eb9f,
+                        #9ccfcf
+                    );
+                    margin: 10px -20px 10px -20px;
+                    position: relative;
+                    overflow: hidden;
+                    font-weight: 300;
+                    font-size: 13px;
+                    padding: 7px 0;
+                ">
+                        • Документ оновлено о
+                        <span id="getCurrentDateTime"></span>
+                    </div>
+                    <div class="fullPasportBlock">
+                        <h2 id="name">Тут твоё имя</h2>
+                        <div class="dataBlock" style="margin-top: 15px">
+                            <img id="imgStudent"
+                                 src=""
+                                 style="border: 1px solid #ddd"
+                                 alt="" />
+                            <div class="dataInfo">
+                                <div style="
+                                margin-top: 15px;
+                                width: 100%;
+                                color: #a1a1a1;
+                            ">
+                                    <span class="dataInfoFirst"
+                                          style="
+                                    font-size: 13px;
+                                    color: black;
+                                ">
+                                        Виданий:
+                                    </span>
+                                    <span style="
+                                    font-size: 13px;
+                                    color: black;
+                                "
+                                          id="vidanoStudy"></span>
+                                </div>
+                                <div style="width: 100%; color: #a1a1a1">
+                                    <span class="dataInfoFirst"
+                                          style="
+                                    font-size: 13px;
+                                    color: black;
+                                ">
+                                        Дійсний:
+                                    </span>
+                                    <span style="
+                                    font-size: 13px;
+                                    color: black;
+                                "
+                                          id="diusnuyDoStudy"></span>
+                                </div>
+                                <div style="width: 100%; color: #a1a1a1">
+                                    <span class="dataInfoFirst"
+                                          style="
+                                    font-size: 13px;
+                                    color: black;
+                                ">
+                                        Форма навчання:
+                                    </span>
+                                    <span style="
+                                    font-size: 13px;
+                                    color: black;
+                                "
+                                          id="formaStudy"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dataBlock2">
+                        <div>
+                            <div>
+                                <h3 id="university">
+                                    Державний університет "Житомирська
+                                    політехніка"
+                                </h3>
+                                <h3 id="fakultat" style="margin-top: 10px">
+                                    Факультет педагогічних технологій та
+                                    освіти впродовж життя
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content back" style="margin-top: 15px; padding-right: 0; padding-left: 0; transform: rotateY(0deg); height: 460px;">
+                        <div class="qrcodeBlock">
+                            <span>
+                                Код діятиме ще
+                                <span data-time="2:59">2:59</span>
+                                хв
+                            </span>
+                            <div class="qrshBlock">
+                                <div class="qrcode changeCode"></div>
+                                <div class="shText"
+                                     style="display: none">
+                                    <span>1977</span>
+                                    <span>3411</span>
+                                    <span>48475</span>
+                                </div>
+                            </div>
+
+                            <div class="qrChange">
+                                <div data-index="1">
+                                    <div style="background: black">
+                                        <img src="assets/qr-code.png"
+                                             style="
+                                                filter: brightness(
+                                                        0
+                                                    )
+                                                    invert(1);
+                                            "
                                              alt="" />
                                     </div>
                                     <span>QR-код</span>
@@ -2439,127 +2637,127 @@
                 </div>
             </div>
             <script>
-    // 1. ЛОГІКА ВІДЕО ТА ЗАВАНТАЖЕННЯ
-    const video = document.getElementById('myVideo');
-    const source = document.getElementById('videoSource');
-    const bgVideo = "assets/background_gradient.mp4";
-    const loadPage = document.querySelector('.loadpage');
+                // 1. ЛОГІКА ВІДЕО ТА ЗАВАНТАЖЕННЯ
+                const video = document.getElementById('myVideo');
+                const source = document.getElementById('videoSource');
+                const bgVideo = "assets/background_gradient.mp4";
+                const loadPage = document.querySelector('.loadpage');
 
-    window.addEventListener('load', () => {
-        video.play().catch(() => {
-            // Для PWA: якщо автозапуск заблоковано
-            document.body.addEventListener('click', () => {
-                video.play();
-            }, { once: true });
-        });
-    });
+                window.addEventListener('load', () => {
+                    video.play().catch(() => {
+                        // Для PWA: якщо автозапуск заблоковано
+                        document.body.addEventListener('click', () => {
+                            video.play();
+                        }, { once: true });
+                    });
+                });
 
-    video.onended = function () {
-        if (!video.loop) {
-            source.src = bgVideo;
-            video.load();
-            video.loop = true;
-            video.play();
+                video.onended = function () {
+                    if (!video.loop) {
+                        source.src = bgVideo;
+                        video.load();
+                        video.loop = true;
+                        video.play();
 
-            if (loadPage) {
-                loadPage.style.transition = "opacity 1s ease";
-                loadPage.style.opacity = '0';
-                setTimeout(() => {
-                    loadPage.style.display = 'none';
-                }, 1000);
-            }
-        }
-    };
+                        if (loadPage) {
+                            loadPage.style.transition = "opacity 1s ease";
+                            loadPage.style.opacity = '0';
+                            setTimeout(() => {
+                                loadPage.style.display = 'none';
+                            }, 1000);
+                        }
+                    }
+                };
 
-    // 2. УНІВЕРСАЛЬНА ФУНКЦІЯ ДЛЯ МОДАЛЬНИХ ВІКОН (СВАЙП ВНИЗ)
-    const overlay = document.getElementById('overlay');
+                // 2. УНІВЕРСАЛЬНА ФУНКЦІЯ ДЛЯ МОДАЛЬНИХ ВІКОН (СВАЙП ВНИЗ)
+                const overlay = document.getElementById('overlay');
 
-    const ModalMoove = (modal, modalContent, overlay) => {
-        let startY;
-        let currentY;
-        let isDragging = false;
+                const ModalMoove = (modal, modalContent, overlay) => {
+                    let startY;
+                    let currentY;
+                    let isDragging = false;
 
-        modal.addEventListener('touchstart', function (e) {
-            startY = e.touches[0].clientY;
-            isDragging = true;
-            modal.style.transition = 'none';
-            overlay.style.transition = 'none';
-        });
+                    modal.addEventListener('touchstart', function (e) {
+                        startY = e.touches[0].clientY;
+                        isDragging = true;
+                        modal.style.transition = 'none';
+                        overlay.style.transition = 'none';
+                    });
 
-        modal.addEventListener('touchmove', function (e) {
-            if (!isDragging) return;
-            currentY = e.touches[0].clientY;
-            const diffY = currentY - startY;
+                    modal.addEventListener('touchmove', function (e) {
+                        if (!isDragging) return;
+                        currentY = e.touches[0].clientY;
+                        const diffY = currentY - startY;
 
-            // Дозволяємо свайп вниз, якщо контент прокручений до самого верху
-            if (modalContent.scrollTop === 0 && diffY > 0) {
-                e.preventDefault();
-                modal.style.top = `calc(5% + ${diffY}px)`;
-                const opacity = Math.max(0, 0.7 - diffY / 1000);
-                overlay.style.opacity = opacity;
-            }
-        });
+                        // Дозволяємо свайп вниз, якщо контент прокручений до самого верху
+                        if (modalContent.scrollTop === 0 && diffY > 0) {
+                            e.preventDefault();
+                            modal.style.top = `calc(5% + ${diffY}px)`;
+                            const opacity = Math.max(0, 0.7 - diffY / 1000);
+                            overlay.style.opacity = opacity;
+                        }
+                    });
 
-        modal.addEventListener('touchend', function () {
-            isDragging = false;
-            modal.style.transition = 'top 0.3s';
-            overlay.style.transition = 'opacity 0.3s';
+                    modal.addEventListener('touchend', function () {
+                        isDragging = false;
+                        modal.style.transition = 'top 0.3s';
+                        overlay.style.transition = 'opacity 0.3s';
 
-            if (currentY - startY > 200) {
-                // Закриваємо модалку
-                modal.style.top = '100%';
-                modal.classList.remove('open');
-                overlay.classList.add('hidden');
-                overlay.style.opacity = '0';
-            } else {
-                // Повертаємо на місце
-                modal.style.top = '5%';
-                overlay.style.opacity = '0.7';
-            }
-        });
-    };
+                        if (currentY - startY > 200) {
+                            // Закриваємо модалку
+                            modal.style.top = '100%';
+                            modal.classList.remove('open');
+                            overlay.classList.add('hidden');
+                            overlay.style.opacity = '0';
+                        } else {
+                            // Повертаємо на місце
+                            modal.style.top = '5%';
+                            overlay.style.opacity = '0.7';
+                        }
+                    });
+                };
 
-    // 3. ІНІЦІАЛІЗАЦІЯ МОДАЛОК
-    const setupModal = (id, contentClass) => {
-        const modal = document.getElementById(id);
-        const content = document.querySelector(contentClass);
-        if (modal && content) {
-            ModalMoove(modal, content, overlay);
-        }
-        return modal;
-    };
+                // 3. ІНІЦІАЛІЗАЦІЯ МОДАЛОК
+                const setupModal = (id, contentClass) => {
+                    const modal = document.getElementById(id);
+                    const content = document.querySelector(contentClass);
+                    if (modal && content) {
+                        ModalMoove(modal, content, overlay);
+                    }
+                    return modal;
+                };
 
-    const modalPasport = setupModal('pasport-modal', '.pasport-modal-content');
-    const modalZagran = setupModal('zagran-modal', '.zagran-modal-content');
-    const modalStudy = setupModal('study-modal', '.study-modal-content');
-    const modalPrava = setupModal('prava-modal', '.prava-modal-content');
-    const modaleDoc = setupModal('eDoc-modal', '.eDoc-modal-content');
+                const modalPasport = setupModal('pasport-modal', '.pasport-modal-content');
+                const modalZagran = setupModal('zagran-modal', '.zagran-modal-content');
+                const modalStudy = setupModal('study-modal', '.study-modal-content');
+                const modalPrava = setupModal('prava-modal', '.prava-modal-content');
+                const modaleDoc = setupModal('eDoc-modal', '.eDoc-modal-content');
 
-    // 4. ОБРОБНИКИ КЛІКІВ (ВІДКРИТТЯ)
-    const bindOpenModal = (selector, modalElement, blockClass) => {
-        document.querySelectorAll(selector).forEach((el) => {
-            el.addEventListener('click', function () {
-                modalElement.style.top = '5%';
-                modalElement.classList.add('open');
-                overlay.classList.remove('hidden');
-                overlay.style.opacity = '0.7';
-                
-                // Очищення активних станів (якщо потрібно)
-                if (blockClass) {
-                    $(`.${blockClass}`).removeClass('active');
-                    $(`.${blockClass} > div`).removeClass('active');
-                }
-            });
-        });
-    };
+                // 4. ОБРОБНИКИ КЛІКІВ (ВІДКРИТТЯ)
+                const bindOpenModal = (selector, modalElement, blockClass) => {
+                    document.querySelectorAll(selector).forEach((el) => {
+                        el.addEventListener('click', function () {
+                            modalElement.style.top = '5%';
+                            modalElement.classList.add('open');
+                            overlay.classList.remove('hidden');
+                            overlay.style.opacity = '0.7';
 
-    bindOpenModal('#fullInfoPasport', modalPasport, 'pasport_block_div');
-    bindOpenModal('#fullInfoZagran', modalZagran, 'zagran_block_div');
-    bindOpenModal('#fullInfoStudy', modalStudy, 'study_block_div');
-    bindOpenModal('#fullInfoeDoc', modaleDoc, 'eDoc_block_div');
-    bindOpenModal('#fullInfoPrava', modalPrava, 'prava_block_div');
+                            // Очищення активних станів (якщо потрібно)
+                            if (blockClass) {
+                                $(`.${blockClass}`).removeClass('active');
+                                $(`.${blockClass} > div`).removeClass('active');
+                            }
+                        });
+                    });
+                };
 
-</script>
+                bindOpenModal('#fullInfoPasport', modalPasport, 'pasport_block_div');
+                bindOpenModal('#fullInfoZagran', modalZagran, 'zagran_block_div');
+                bindOpenModal('#fullInfoStudy', modalStudy, 'study_block_div');
+                bindOpenModal('#fullInfoeDoc', modaleDoc, 'eDoc_block_div');
+                bindOpenModal('#fullInfoPrava', modalPrava, 'prava_block_div');
+
+            </script>
             <style>
                 .swiper-container {
                     max-width: 100%;
@@ -2570,6 +2768,8 @@
                     display: flex;
                     justify-content: center;
                 }
+
+
             </style>
             <div class="documentSlider swiper-container">
                 <div class="swiper-wrapper" style="margin-bottom: 20px;">
@@ -3329,6 +3529,110 @@
                         </div>
                     </div>
 
+                    <!-- ======= ДОЗВІЛ НА ЗБРОЮ ======= -->
+                    <div class="swiper-slide">
+                        <div class="slider zbroya">
+                            <div class="content front" style="justify-content: space-between;">
+
+                                <!-- Верхня частина: заголовок + поле зброї -->
+                                <div>
+                                    <h1 style="font-size: 20px; font-weight: 400; line-height: 1.3; margin-bottom: 20px; width: auto;">
+                                        Дозвіл на зберігання і носіння зброї фізичною особою
+                                    </h1>
+                                    <div style="display: flex; flex-direction: column; gap: 4px;">
+                                        <span style="font-size: 13px; color: rgba(0,0,0,0.6);">Зброя:</span>
+                                        <span id="zbroyaType" style="font-size: 13px; font-weight: 300; line-height: 1.4;">Пістолет ПМ (9-мм пістолет Макарова)</span>
+                                    </div>
+                                </div>
+
+                                <!-- Нижня частина: marquee + номер + три точки -->
+                                <div>
+                                    <div class="line2 marquee"
+                                         style="
+                                                background: linear-gradient(90deg, #b6eb9f, #9ccfcf);
+                                                margin: 0 -15px 12px -15px;
+                                                position: relative;
+                                                overflow: hidden;
+                                                font-weight: 300;
+                                                font-size: 13px;
+                                                padding: 7px 0;
+                                            ">
+                                        Дозвіл дійсний &bull; Дозвіл дійсний &bull; Дозвіл дійсний &bull;&nbsp;
+                                    </div>
+
+                                    <div style="
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: space-between;
+                                            ">
+                                        <div style="display: flex; align-items: center; gap: 10px;">
+                                            <span id="zbroyaNumber"
+                                                  style="font-size: 26px; font-weight: 300;">0000009965</span>
+                                            <img class="copyPng"
+                                                 src="assets/copy.png"
+                                                 alt="" />
+                                        </div>
+                                        <div class="arrowSvg moreInfo"
+                                             data-index="zbroya"
+                                             style="
+                                                    background-color: black;
+                                                    padding: 8px;
+                                                    border-radius: 50%;
+                                                    display: flex;
+                                                    align-items: center;
+                                                    cursor: pointer;
+                                                ">
+                                            <img style="
+                                                        filter: brightness(0) invert(1);
+                                                        width: 18px;
+                                                        height: 18px;
+                                                        transform: rotate(0);
+                                                    "
+                                                 src="assets/dots.png"
+                                                 alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="content back">
+                                <div class="qrcodeBlock">
+                                    <span>
+                                        Код діятиме ще
+                                        <span data-time="2:59">2:59</span>
+                                        хв
+                                    </span>
+                                    <div class="qrshBlock">
+                                        <div class="qrcode changeCode"></div>
+                                        <div class="shText" style="display:none">
+                                            <span>2048</span>
+                                            <span>7731</span>
+                                            <span>99512</span>
+                                        </div>
+                                    </div>
+                                    <div class="qrChange">
+                                        <div data-index="1">
+                                            <div style="background:black">
+                                                <img src="assets/qr-code.png"
+                                                     style="filter:brightness(0) invert(1)"
+                                                     alt="" />
+                                            </div>
+                                            <span>QR-код</span>
+                                        </div>
+                                        <div data-index="2">
+                                            <div>
+                                                <img src="assets/free-icon-barcode-7797192.png" alt="" />
+                                            </div>
+                                            <span>Штрихкод</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ======= /ДОЗВІЛ НА ЗБРОЮ ======= -->
+
                     <div class="swiper-slide">
                         <div class="slider" style="
                                 display: flex;
@@ -3986,90 +4290,231 @@
         });
     });
 
-    let countdownInterval;
+    // ─────────────────────────────────────────────────────────────
+    // QR-ТАЙМЕР: кожна картка має свій незалежний інтервал
+    // ─────────────────────────────────────────────────────────────
+    const cardTimers = new Map(); // slider-element → { interval, minutes, seconds }
 
-    // Функция для запуска обратного отсчета
-    function startCountdown(element, minutes, seconds) {
-        if (countdownInterval) {
-            clearInterval(countdownInterval);
+    function startCardCountdown(sliderEl) {
+        // Зупиняємо попередній таймер цієї картки (якщо є)
+        if (cardTimers.has(sliderEl)) {
+            clearInterval(cardTimers.get(sliderEl).interval);
         }
-        // Обновление элемента на странице, чтобы отобразить текущее время обратного отсчета
-        function updateCountdown() {
-            // Если время вышло, остановите таймер
-            if (minutes === 0 && seconds === 0) {
-                clearInterval(countdownInterval);
+
+        const el = sliderEl.querySelector('.qrcodeBlock > span > span');
+        if (!el) return;
+
+        // Скидаємо до 2:59
+        let minutes = 2;
+        let seconds = 59;
+        el.textContent = `${minutes}:${String(seconds).padStart(2, '0')}`;
+
+        // Анімація пульсації QR під час відліку
+        const qrEl = sliderEl.querySelector('.changeCode');
+
+        const interval = setInterval(() => {
+            seconds--;
+            if (seconds < 0) { seconds = 59; minutes--; }
+            if (minutes < 0) {
+                clearInterval(interval);
+                cardTimers.delete(sliderEl);
+                el.textContent = '0:00';
+                if (qrEl) qrEl.style.opacity = '0.3';
                 return;
             }
+            el.textContent = `${minutes}:${String(seconds).padStart(2, '0')}`;
 
-            // Уменьшите количество секунд
-            seconds--;
-
-            // Если секунды меньше нуля, уменьшите количество минут и установите секунды в 59
-            if (seconds < 0) {
-                seconds = 59;
-                minutes--;
+            // Останні 30 секунд — QR блимає
+            if (minutes === 0 && seconds <= 30 && qrEl) {
+                qrEl.style.transition = 'opacity 0.4s';
+                qrEl.style.opacity = seconds % 2 === 0 ? '1' : '0.5';
             }
+        }, 1000);
 
-            // Обновите элемент обратного отсчета на странице
-            element.textContent = `${minutes}:${seconds < 10 ? '0' : ''
-                }${seconds}`;
-        }
-
-        // Запустите таймер, вызывая updateCountdown каждую секунду
-        countdownInterval = setInterval(updateCountdown, 1000);
+        cardTimers.set(sliderEl, { interval, minutes, seconds });
     }
 
-    // Найдите все элементы с классом 'countdown'
-    const countdownElements = document.querySelectorAll(
-        '.qrcodeBlock > span > span'
-    );
+    // ─────────────────────────────────────────────────────────────
+    // FLIP-КАРТКИ — оригінальна логіка +=180 через anime.js
+    // ─────────────────────────────────────────────────────────────
+    document.querySelectorAll('.slider').forEach((sliderEl) => {
+        sliderEl.addEventListener('click', function (e) {
+            // Ігноруємо кліки по кнопках всередині картки
+            if (e.target.closest('.qrChange, .copyPng, .moreInfo')) return;
 
-    document.querySelectorAll('.slider').forEach((e) => {
-        e.addEventListener('click', function () {
-            const current = $(this);
-            const element = this.querySelector(
-                '.qrcodeBlock > span > span'
-            );
-            const time = element.getAttribute('data-time').split(':');
-            const minutes = parseInt(time[0], 10);
-            const seconds = parseInt(time[1], 10);
-            startCountdown(element, minutes, seconds);
+            // Визначаємо поточний кут з transform-рядка
+            const style = sliderEl.getAttribute('style') || '';
+            const match = style.match(/rotateY\((-?[\d.]+)deg\)/);
+            const currentAngle = match ? parseFloat(match[1]) : 0;
+            const isFlipped = (Math.round(currentAngle) % 360 !== 0);
 
             anime({
-                targets: e,
-                rotateY: {
-                    value: '+=180',
-                    delay: 0,
-                },
-                easing: 'linear',
-                duration: 100,
-                complete: function (anim) {
-                    playing = false;
-                },
+                targets: sliderEl,
+                rotateY: { value: '+=180', delay: 0 },
+                easing: 'easeInOutQuad',
+                duration: 300,
             });
 
-            document.querySelectorAll('.slider').forEach((e) => {
-                const el = e.getAttribute('style');
-                if (el) {
-                    const transformMatch = el.match(
-                        /rotateY\((-?\d+(\.\d+)?)deg\)/
-                    );
-                    const rotate = transformMatch[1];
-                    if (Number.isInteger(Number(rotate) / 360)) {
-                        console.log('открыто');
-                    } else {
-                        e.setAttribute(
-                            'style',
-                            'transform: rotateY(0deg);'
-                        );
-                    }
+            // При відкритті (лицева → QR)
+            if (!isFlipped) {
+                startCardCountdown(sliderEl);
+
+                const qrChange = sliderEl.querySelector('.changeCode');
+                if (qrChange) {
+                    qrChange.classList.remove('shcode');
+                    qrChange.classList.add('qrcode');
+                    qrChange.style.opacity = '1';
+                }
+                const shText = sliderEl.querySelector('.shText');
+                if (shText) shText.style.display = 'none';
+
+                const btns = sliderEl.querySelectorAll('.qrChange > div > div');
+                btns.forEach((b, i) => {
+                    b.style.background = i === 0 ? 'black' : '#ddd';
+                    const img = b.querySelector('img');
+                    if (img) img.style.filter = i === 0 ? 'brightness(0) invert(1)' : '';
+                });
+            } else {
+                // При закритті зупиняємо таймер
+                if (cardTimers.has(sliderEl)) {
+                    clearInterval(cardTimers.get(sliderEl).interval);
+                    cardTimers.delete(sliderEl);
+                }
+            }
+        });
+    });
+
+    // ─────────────────────────────────────────────────────────────
+    // QR ↔ BARCODE перемикач — ізольований до своєї картки
+    // ─────────────────────────────────────────────────────────────
+    document.querySelectorAll('.qrChange').forEach((qrChangeBlock) => {
+        const sliderEl = qrChangeBlock.closest('.slider');
+
+        qrChangeBlock.querySelectorAll('div[data-index] > div').forEach((btn) => {
+            btn.addEventListener('click', function (e) {
+                e.stopPropagation();
+
+                const parent = this.parentNode; // div[data-index]
+                const isQR = parent.getAttribute('data-index') === '1';
+
+                // Знаходимо елементи тільки всередині цієї картки
+                const changeCode = sliderEl.querySelector('.changeCode');
+                const shText = sliderEl.querySelector('.shText');
+                const allBtns = qrChangeBlock.querySelectorAll('div[data-index] > div');
+
+                // Скидаємо всі кнопки
+                allBtns.forEach((b) => {
+                    b.style.background = '#ddd';
+                    const img = b.querySelector('img');
+                    if (img) img.style.filter = '';
+                });
+
+                // Активуємо поточну
+                this.style.background = 'black';
+                const activeImg = this.querySelector('img');
+                if (activeImg) activeImg.style.filter = 'brightness(0) invert(1)';
+
+                if (isQR) {
+                    changeCode.classList.remove('shcode');
+                    changeCode.classList.add('qrcode');
+                    if (shText) shText.style.display = 'none';
+                } else {
+                    changeCode.classList.add('shcode');
+                    changeCode.classList.remove('qrcode');
+                    if (shText) shText.style.display = 'flex';
                 }
             });
         });
     });
 
-    window.addEventListener('DOMContentLoaded', function () {
+    // ─────────────────────────────────────────────────────────────
+    // АНІМАЦІЯ КНОПОК ПІН-КОДУ
+    // ─────────────────────────────────────────────────────────────
+    document.querySelectorAll('.start-block > button').forEach((btn) => {
+        btn.addEventListener('pointerdown', function () {
+            anime({
+                targets: this,
+                scale: [1, 0.88],
+                duration: 80,
+                easing: 'easeOutQuad',
+            });
+        });
+        btn.addEventListener('pointerup', function () {
+            anime({
+                targets: this,
+                scale: [0.88, 1],
+                duration: 200,
+                easing: 'spring(1, 80, 18, 0)',
+            });
+        });
+        btn.addEventListener('pointerleave', function () {
+            anime({ targets: this, scale: 1, duration: 150, easing: 'easeOutQuad' });
+        });
+    });
 
+    // ─────────────────────────────────────────────────────────────
+    // АНІМАЦІЯ ПІН-КРАПОК — spring bounce при заповненні
+    // ─────────────────────────────────────────────────────────────
+    const origVhod = window.vhod; // зберігаємо оригінал якщо є
+    function animatePinDots() {
+        const activeDots = document.querySelectorAll('.start-vhod > div.active');
+        activeDots.forEach((dot) => {
+            anime({
+                targets: dot,
+                scale: [1.5, 1],
+                duration: 400,
+                easing: 'spring(1, 80, 20, 0)',
+            });
+        });
+    }
+
+    // Перехоплюємо клік по кнопках пін-коду для анімації крапок
+    document.querySelectorAll('.start-block > button:not([data-type])').forEach((btn) => {
+        btn.addEventListener('click', function () {
+            // Невелика затримка щоб dot.active вже був проставлений
+            setTimeout(animatePinDots, 10);
+        });
+    });
+
+    // ─────────────────────────────────────────────────────────────
+    // АНІМАЦІЯ FOOTER-TABS — підсвічування активної вкладки
+    // ─────────────────────────────────────────────────────────────
+    document.querySelectorAll('.footer > div').forEach((tab) => {
+        tab.addEventListener('pointerdown', function () {
+            anime({
+                targets: this,
+                scale: [1, 0.9],
+                duration: 80,
+                easing: 'easeOutQuad',
+            });
+        });
+        tab.addEventListener('pointerup', function () {
+            anime({
+                targets: this,
+                scale: [0.9, 1],
+                duration: 250,
+                easing: 'spring(1, 80, 15, 0)',
+            });
+        });
+    });
+
+    // ─────────────────────────────────────────────────────────────
+    // COPY — мікро-анімація іконки при копіюванні
+    // ─────────────────────────────────────────────────────────────
+    document.querySelectorAll('.copyPng').forEach((icon) => {
+        icon.addEventListener('click', function (e) {
+            e.stopPropagation();
+            anime({
+                targets: this,
+                scale: [1, 1.5, 1],
+                duration: 400,
+                easing: 'spring(1, 80, 20, 0)',
+            });
+            showNotification();
+        });
+    });
+
+    window.addEventListener('DOMContentLoaded', function () {
 
         // Удаляем блоки, если документ неактивен
         var statusMapping = [
@@ -4086,47 +4531,7 @@
             }
         });
 
-        // ==== 2. Логика для кликов по .qrChange > div > div (можно и без jQuery-стилей): ====
-        document.querySelectorAll('.qrChange > div > div').forEach(function (e) {
-            e.addEventListener('click', function (event) {
-                event.stopPropagation();
-
-                // Стилизация выбранного блока
-                this.style.background = 'black';
-                let img = this.querySelector('img');
-                if (img) img.style.filter = 'brightness(0) invert(1)';
-
-                // Определяем родителя и соседей
-                const our = this.parentNode;
-                let need;
-                if (our.getAttribute('data-index') === '1') {
-                    document.querySelector('.changeCode').classList.remove('shcode');
-                    document.querySelector('.changeCode').classList.add('qrcode');
-                    document.querySelector('.shText').style.display = 'none';
-                    need = our.nextElementSibling && our.nextElementSibling.getAttribute('data-index') === '2'
-                        ? our.nextElementSibling
-                        : null;
-                } else {
-                    document.querySelector('.changeCode').classList.add('shcode');
-                    document.querySelector('.changeCode').classList.remove('qrcode');
-                    document.querySelector('.shText').style.display = 'flex';
-                    need = our.previousElementSibling && our.previousElementSibling.getAttribute('data-index') === '1'
-                        ? our.previousElementSibling
-                        : null;
-                }
-                if (need) {
-                    need.querySelectorAll('div').forEach(function (div) {
-                        div.style.background = '#ddd';
-                    });
-                    need.querySelectorAll('div > img').forEach(function (img) {
-                        img.style.filter = 'brightness(1) invert(0)';
-                    });
-                }
-
-            });
-        });
-
-        // ==== 3. Запускаем Swiper только если контейнеры есть ====
+        // Swiper — документи
         if (document.querySelector('.documentSlider')) {
             new Swiper('.documentSlider', {
                 pagination: {
@@ -4138,6 +4543,7 @@
             });
         }
 
+        // Swiper — новини
         if (document.querySelector('.sliderNews')) {
             new Swiper('.sliderNews', {
                 pagination: {
